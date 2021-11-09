@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+  <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+
+
+/*footer section*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   text-align: center;
+}
+/*header section*/
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  overflow: hidden;
+  margin:30px;
+  
+  background-color: rgb(0, 0, 0);
+}
+
+li {
+  float: left;
+  
+}
+
+li a { font-family: 'Courier New', Courier, monospace;
+  display: block;
+  color: rgb(218, 203, 203);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+a:hover {
+  color: rgb(255, 0, 0);
+        }
+.img{padding-top: 380px;
+    border-radius: 20px;
+    text-align: center;
+}
+#p3{position:absolute;
+   top:250px;
+   color:brown;
+   padding-left: 350px;
+   font-size: 30px;
+    }
+#p4{position:absolute;
+  top:295px;
+  color: rgb(0, 0, 0);
+  padding-left: 350px;
+  font-size: 30px;
+}
+
+#p5{position:absolute;
+top:435px;
+color:rgb(0, 0, 0);
+padding-left: 350px;
+font-size: 30px;
+padding-bottom: 250px;
+}
+body{background-image: url('logo.jpg');
+    background-repeat: no-repeat;
+    background-size: 420px;
+}
+#about{font-size: 50px;
+    padding-top: 500px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#aboutt{text-align: center;
+       font-size: 30px;
+       }
+
+
+       .line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+   
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(8, 8, 8, 0.75);}
+  to{border-right-color: transparent;}
+}
+.dash{color:rgb(0, 0, 0);
+      border-style:solid;
+      font-size: 24px;
+      padding-bottom: 70px;
+      text-align: center;
+      }       
+      .first{color:rgb(0, 0, 0);
+       text-align:center;
+       font-family:"Times New Roman", Times, Serif;}
+.second{color:rgb(0, 0, 0);
+        text-align:center;
+        font-family:"Times New Roman", Times, serif;
+        padding-bottom: 70px;
+        }
+
+        /* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+/* Zoom Out #1 */
+.hover03 figure img {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover03 figure:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+/*second part of my animation*/
+}
+h1,
+h1+p {
+	margin: 30px 15px 0;
+	font-weight: 300;
+}
+h1+p a {
+	color: #333;
+}
+h1+p a:hover {
+	text-decoration: none;
+}
+h2 {
+	margin: 60px 15px 0;
+	padding: 0;
+	font-weight: 300;
+}
+h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+</style>
+<body>
+   <div class="header">
+     <nav>
+        <ul>
+         <li><a href="index.html">Welcome</a></li>
+          
+                 
+                     
+        </ul>
+     </nav>
+ </div>
+
+   <!--remember to add on animation . Form to send to an email by form action. website to be on one page scrooling down--> 
+  
+</div>
+
+<h2 class="line-1 anim-typewriter">Old Skool Tshisanyama !</h2>
+<p id="p3"style="font-size:16px;"><i>RELAX,<b style="color: rgb(255, 0, 0);font-size:30px"> UNWIND</b> WE'VE GOT YOUR GOOD <b style="color:rgb(0, 0, 0)">TIMES COVERED</b></i></p>
+<p id="p4"style="colorblack;"> Old Skool is the best destination for people who are looking <br>for an all-in-one type of service.<br> Our Clients enjoy an advantage of minimizing the time they<br> spend to have their maximum satisfaction.</p>
+<p id="p5"style="color:black;"> Our team is available for enquiries. Never get puzzled<br> about where to go for good food, car wash and hair studio.</p>
+
+
+
+
+
+ <!--section for about here-->
+
+         <h1 id="about">About</h1>
+<p id="aboutt">Old Skool is a business dealing with local based food,Car wash & a saloon.<br>
+  The business is driven by the aim of solving unemployment around the area and <br>
+  also serve as a place of entertainment.We serve all types of fastfood you name your <br>
+  plate'.The business was established in 2019 and has been operating since. 
+</p>
+
+         <h1 id="about">TSHISANYAMA</h1>
+         <p id="aboutt">
+As you all know there are less TSHISANYAMA's in khayelitsha.<br>
+Old SKOOL guarantees you the best experience of african culture.<br>
+There is no other place to look at than OLDSKOOL.To top it all we <br>
+follow protocol on allergy circumstances, meaning we put our customers first
+   </p>
+
+
+        <h1 id="about">The Carwash</h1>
+        <p id="aboutt">
+The Carwash is man led.It was formed to end unemployment<br>
+ from the males since they focus more on drugs.
+</p>
+
+
+<h1 id="about">The salon</h1>
+<p id="aboutt">
+The salon is feminine led it focuses on uplifting young<br>
+ black children with the skills of getting to know how to do <br>
+ hairstyles.It was opened because there is few South African led <br>
+ salons , there are mostly foreign salons in Capetown,<br>
+  so she established it under the business.
+</p>
+       <!--section for services here-->
+
+       <h1 id="about">Services</h1>
+       <div class="dash">
+         <!--remember to put a border-->
+        <p>Opening hours:</p>
+        <p>Mon - Thurs: 9am - 6pm</p>
+        <p>Fri - Sun: 9am - 10pm</p>
+        <p>Bookings for events, birthdays, baby showers and lunch catering</p>
+        <p>You can contact us</p>
+       </div>
+
+       <div class="first">
+        <h1>Tshisanyama</h1>
+        <h2>Kasi Flavor</h2>
+        <div class="second">
+        <h2>Menu:</h2>
+     
+        
+        </div>
+        <h2 id="demo01">MENU</h2>
+        <div class="hover01 column">
+          <div>
+            <figure><img src="Dish1.jpg" width="120px" height="120px" /></figure>
+            <span></span>
+          </div>
+          <div>
+            <figure><img src="Dish2.jpg" width="120px" height="120px" /></figure>
+            <span></span>
+          </div>
+          <div>
+            <figure><img src="Dish3.jpg" width="120px" height="120px"/></figure>
+            <span></span>
+          </div>
+          <div>
+            <figure><img src="Dish4.jpg" width="120px" height="120px"/></figure>
+            <span></span>
+          </div>
+          <div>
+            <figure><img src="8.jpg" width="120px" height="120px"/></figure>
+            <span></span>
+          </div>
+          <div>
+            <figure><img src="3.jpg" width="120px" height="120px"/></figure>
+            <span></span>
+          </div>
+        </div>
+     
+         <!--section for contact here-->
+           <!--section for about here-->
+ <div class="footer"> 
+
+     <p>Old Skool designed by Acer Group.All rights reserved
+         <img src="insta.png" width="30px" height="30px" style="padding-left: 90px;">
+         <img src="twitter.png" width="30px" height="30px" style="padding-left: 90px;">
+         <img src="facebook (1).png" width="30px" height="30px" style="padding-left: 90px;">
+         <img src="whatsapp.png" width="30px" height="30px" style="padding-left: 90px;">
+     </p>
+     
+ </div>
+ </body>            
+ </html>
